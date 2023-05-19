@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Leitura.com</title>
+    <link rel="stylesheet" href="/assets/styles/style.css">
+</head>
+<body>
+    <main id="container">
+            <form id = "login_form">
+                <div id ="form_header">
+                <h1>Leitura</h1>
+                </div>
+
+                <div id = "social_media">
+                    <a href="https://www.instagram.com/livrarialeituracampinas/">
+                        <img src = "assets/imgs/instagram logo.png"></img>
+                    </a>
+                    <a href="https://www.tiktok.com/@leituracampinas">
+                        <img src = "assets/imgs/tiktok logo.png"></img>
+                    </a>
+                    <a href="https://leitura.com.br/">
+                        <img src = "assets/imgs/google logo.png"></img>
+                    </a>
+
+                </div>
+
+                <div id="inputs"> 
+                    <div class = "input-box">
+                    <label for="name">
+                        Name
+                    
+                        <div class = "input-field">
+                            <i class = "fa-solid fa-user"></i>
+                            <input type="text" id = "usuario">
+                        </div>
+                    </label>
+                </div>
+                <div class = "input-box">
+                    <label for="password">
+                        Password
+                    
+                        <div class = "input-field">
+                            <i class = "fa-solid fa-key"></i>
+                            <input type="password" id = "senha">
+                        </div>
+                    </label>
+                    <div id = "forgot_password">
+                        <a href="#">
+                            Forgot your password
+                        </a>
+                        
+                    </div>
+                    <div id = "fazer_cadastro">
+                        <p>Ainda nao tem uma conta?
+                        
+                        </p>
+                        <a href="cadastro.html">
+                            Fazer cadastro
+                        </a>
+                        
+                    </div>
+                  
+            </div>
+
+            <button type="submit" onclick="login()" id ="login_button"> Entrar </button>
+            
+
+            
+                <!--*<p>Seja bem vindo(a). Faça login para acessar sua conta e explorar todo o nosso universo!</p>
+                <input type="text" placeholder="Usuario" id="usuario">
+                <input type="password" placeholder="Senha" id="senha">
+                <input type="submit" onclick="login(); return false">
+
+                <p> <a href="cadastro.html">Faça seu cadastro aqui!</a></p> -->
+            </form>
+ 
+        </main>
+    <script src = "/assets/js/script.js"></script>
+</body>
+</html>
